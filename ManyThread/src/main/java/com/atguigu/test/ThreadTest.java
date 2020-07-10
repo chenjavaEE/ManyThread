@@ -5,6 +5,9 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 
+//sssssssssssss
+//sssseeeeeeeeeeeeeeeeeeee
+
 //3个售票员卖30张票
 public class ThreadTest {
 
@@ -15,8 +18,8 @@ public class ThreadTest {
 		new Thread(()-> {for (int i = 1; i <= 30; i++) ticket.sale();},"b").start();
 		new Thread(()-> {for (int i = 1; i <= 30; i++) ticket.sale();},"c").start();
 		/* new Thread(new Runnable() {
-			
-			@Override
+			//vvvvvvvvvvvvv
+		
 			public void run() {
 				for (int i = 1; i <= 30; i++) {
 					ticket.sale();
