@@ -11,9 +11,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class TestController {
+    
+    //dddddddddddddd
+    
     @GetMapping("test")
-    @ResponseBody
-    public String test(){
+   
+    public String test(){//ddddddddddddd
 
         System.out.println("1111111");
         return "2222222";
